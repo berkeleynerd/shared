@@ -1,0 +1,4 @@
+This distribution contains code derived from AdaCore's GNAT Studio, released
+under GPL-3.0-or-later. Significant changes were made to extract headless core
+components (shared build settings, common utilities, language layer, and LSP
+client). Upstream copyright notices are preserved in source headers.
