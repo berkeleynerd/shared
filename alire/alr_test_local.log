@@ -1,0 +1,6 @@
+[alr test] Testing shared=0.1.0-dev
+[alr test] Spawning default local test: alr -d -n build --release
+Note: Building shared=0.1.0-dev/gnatstudio_shared.gpr...
+Success: Build finished successfully in 0.39 seconds.
+Found declared GPR file: gnatstudio_shared.gpr
+[alr test] Test completed SUCCESSFULLY

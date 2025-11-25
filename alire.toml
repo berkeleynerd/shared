@@ -11,9 +11,9 @@ website = "https://github.com/berkeleynerd/gps_shared"
 tags = ["ada", "gpr", "build"]
 
 # NOTE: In this monorepo, we point to the root GPR. For a split repo,
-# set to ["shared.gpr"] at the crate root.
+# set to ["gnatstudio_shared.gpr"] at the crate root.
 project-files = [
-  "shared.gpr",
+  "gnatstudio_shared.gpr",
 ]
 
 [[depends-on]]
