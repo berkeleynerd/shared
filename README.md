@@ -16,3 +16,9 @@ Dependencies
 Build (after split)
 - alr build -- -P gps_shared.gpr
 
+## macOS toolchain fix
+
+This crate (and any consumer) must run `./fix_toolchain.sh` when working on
+macOS after refreshing the GNAT toolchain. The script removes GNAT’s stale
+`include-fixed` headers and updates the SDK symlink so downstream builds that
+compile C files succeed. Other operating systems do not require this step.
