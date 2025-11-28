@@ -1,0 +1,20 @@
+# Ada/GNAT build outputs
+*.ali
+*.o
+*.cswi
+*.stderr
+*.stdout
+
+# Build directories
+obj/
+
+*.log
+diagnostics.log
+
+# Alire-generated state
+alire/
+alire.lock
+build_hash_inputs
+flags
+settings.toml
+config/*_config.*
