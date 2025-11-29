@@ -11,7 +11,7 @@ abstract project Shared_Config is
 
    Alire_Host_Arch := "aarch64";
 
-   Alire_Host_Distro := "ubuntu";
+   Alire_Host_Distro := "fedora";
    Ada_Compiler_Switches := External_As_List ("ADAFLAGS", " ");
    Ada_Compiler_Switches := Ada_Compiler_Switches &
           (
