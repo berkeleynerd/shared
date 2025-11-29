@@ -1,7 +1,7 @@
-dependency:gnatcoll=25.0.0=0755e84c1f44e5ae72c964e4aa6ddf658fcf1cd166b90ace417b1e8a740ea4e1
+dependency:gnatcoll=25.0.0=d38bb6239cf2ad67542cfd1d0fd87d08c1247ea9aadf160de29b16cfe5456086
 external:BUILD=default
 external:LIBRARY_TYPE=static
 external:SHARED_LIBRARY_TYPE=default
 profile:shared=RELEASE
 switches:shared=-O3,-fdata-sections,-ffunction-sections,-gnatW8,-gnatn
-version:gnat_native=15.1.2
+version:gnat_native=15.2.1
